@@ -2,7 +2,7 @@
 
 University project for the course "AI in Biomedicine", Polytecnic of Milan.
 
-It is well described in the Final report file. Refer to it for a clearly understanding.
+The work is well described in the Final report file. Refer to it for a clearly understanding.
 
 ## Introduction
 Lung cancer (LC) is the primary cause of cancerrelated mortality worldwide and the second most frequently diagnosed cancer globally. Due to the lack of early symptoms, patients often miss the optimal treatment window, making early screening crucial for the prevention and management of lung cancer. The 10-year relative survival rate can reach up to 88% if treatment is administered in time. Pulmonary nodules are clinically relevant as they may represent the initial manifestation of lung cancer.
