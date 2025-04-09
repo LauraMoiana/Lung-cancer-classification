@@ -1,4 +1,4 @@
-# Lung-cancer-classification
+# Lung cancer classification (CT scan)
 
 University project for the course "AI in Biomedicine", Polytecnic of Milan.
 
