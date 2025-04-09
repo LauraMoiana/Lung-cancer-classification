@@ -10,3 +10,15 @@ However, identifying malignant cells can be challenging due to variations in sca
 potential misinterpretations by medical professionals. The variability and unpredictability of pulmonary nodules further complicate accurate detection and diagnosis.
 Machine learning (ML) and deep learning (DL) methods have shown great potential in supporting radiologists and clinicians by enhancing
 nodule detection, classification and segmentation. These AI-driven systems hold the potential to improve cancer diagnosis and prognosis, reduce misclassifications, lower error rates, and provide high-quality imaging analysis.
+
+## Data
+The dataset consists of 2,363 pairs of images in NRRD (Nearly Raw Raster Data) format, where each pair includes:
+- full-slice image (2D CT scan slice showing the largest visible nodule. res=512x512)
+- zoomed-in/nodule image (focused view of the nodule. res=variable (from 45x44 to 108x124)
+Each pair is annotated with malignancy score label [1-5] indicating the severity of the tumor.
+
+## Goal
+For both image type (full slice, nodule) perform:
+- 5-class malignancy classification
+- Binary classification (1,2,3 - benign; 3-4 malignant)
+Compare their performance
