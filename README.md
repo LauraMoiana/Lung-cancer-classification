@@ -1,6 +1,7 @@
 # Lung-cancer-classification
 
 University project for the course "AI in Biomedicine", Polytecnic of Milan.
+
 It is well described in the Final report file. Refer to it for a clearly understanding.
 
 ## Introduction
