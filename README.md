@@ -26,7 +26,7 @@ For both image type (full slice, nodule) perform:
 Compare their performance
 
 ## Method
-preprocessing:
+Preprocessing:
 1) resize nodule image to a fixed size
 2) cleanLab for data cleaning
 3) train-val split
@@ -43,7 +43,8 @@ Different network have been trained, starting from the basic CNN as baseline. Th
 Different network have been trained, starting from the basic CNN as baseline. Radiomic features have been estracted from the nodule images (even without segmentation masks) and provide promising results. The best results have been obtained combaining both radiomic features and image analysis into a unique deeo learning network with 2 different input paths.
 
 ## Results
-results are clearly described into the Final report.
+Results are clearly described into the Final report.
+
 The Accuracy of the best model for each image-type and classification-type are shown in the following table:
 |             | binary    | 5 classes |
 |-------------|-----------|-----------|
