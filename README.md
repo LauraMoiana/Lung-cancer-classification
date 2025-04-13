@@ -27,10 +27,10 @@ Compare their performance
 
 ## Method
 Preprocessing:
-1) resize nodule image to a fixed size
-2) cleanLab for data cleaning
-3) train-val split
-4) clipping of HU pixel values
+1) Resize nodule image to a fixed size
+2) CleanLab for data cleaning
+3) Train-val split
+4) Clipping of HU pixel values
 5) Clahe and denoising
 6) Pixel normalization
 7) Augmentation
