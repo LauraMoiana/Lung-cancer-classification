@@ -44,6 +44,12 @@ Different network have been trained, starting from the basic CNN as baseline. Ra
 
 ## Results
 results are clearly described into the Final report.
+The Accuracy of the best model for each image-type and classification-type are shown in the following table:
+|             | binary    | 5 classes |
+|-------------|-----------|-----------|
+| full_slice  | 83.99 %   | 50.00 %   |
+| nodule      | 89.47 %   | 61.84 %   |
+
 
 ## Conclusion
 This study explored the performance of deep learning models in classifying two types of lung CT images: full_slice images and nodule focused images. The results showed that models trained on nodule images outperformed those trained on full_slice images, likely due the fact that nodule images focus directly on the region of interest. 
